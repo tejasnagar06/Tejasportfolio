@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* last color for website 
+#fcbb43 */
+html,
+body {
+  background-color: #333;
+  color: white;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 200 to 700 */
+
+/* Font css  */
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Main header css  */
+.right {
+  background-color: #333333d2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  font-size: x-large;
+}
+
+.left {
+  background-color: #333333d2;
+  color: white;
+  font-size: xx-large;
+  left: 5px;
+}
+
+ul li a:hover,
+.active {
+  text-decoration: underline 3px #fcbb43;
+}
+
+#logo a {
+  text-decoration: none;
+  color: white;
+}
+
+/* For nav bar  */
+
+ul li {
+  display: inline;
+  margin-right: 3px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+
+/* Main content starts here  */
+
+.main-cont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100vh;
+  color: white;
+  background-color: 000000;
+}
+
+.box-1 {
+  background-image: linear-gradient(to left top, #333333, #674c61, #af6172, #ea8262, #fcbb43);
+}
+
+.box-2 {
+  background-color: #333;
+}
+
+/* image on the right box  */
+
+#r-img {
+  width: 50vw;
+  height: 100vh;
+}
+
+/* Content on the left box  */
+
+.left-box {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.fl {
+  font-size: 6em;
+}
+
+.sl {
+  font-size: 6em;
+}
+
+/* buttons modifications */
+
+.con-button {
+  /* background-color: green; */
+  padding: 3px;
+  border-radius: 7px;
+}
+
+.res-button {
+  /* background-color: green; */
+  padding: 3px;
+  border-radius: 7px;
+}
